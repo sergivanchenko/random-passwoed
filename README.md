@@ -1,1 +1,1 @@
-# random-passwoed
+# random-password
