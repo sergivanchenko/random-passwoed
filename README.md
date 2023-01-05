@@ -10,6 +10,3 @@
 2. Ability to set password length.
 
 3. Add "copy-on-click"
-
-
-## Link to website: [Generate a random passwords](https://github.com/sergivanchenko/random-password)
