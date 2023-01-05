@@ -8,12 +8,12 @@ body {
 
 .main {
   width: 550px;
-  height: 550px;
+  height: 650px;
   background: #1f2937;
 }
 
 .description {
-  margin-top: 115px;
+  margin-top: 60px;
   margin-left: 52px;
 }
 
@@ -34,7 +34,16 @@ body {
   color: #d5d4d8;
   font-weight: 400;
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.questionUser {
+  color: #4adf86;
+  font-weight: 800;
+}
+
+.userSymbols {
+  margin-bottom: 10px;
 }
 
 .button {
@@ -52,20 +61,58 @@ body {
   cursor: pointer;
 }
 
+.button:active {
+  background: green;
+  color: #1f2937;
+}
+
 .line {
-  width: 450px;
+  width: 400px;
   border: 1px solid #2f3e53;
   margin-bottom: 35px;
 }
 
 .result {
   display: flex;
+  flex-direction: column;
 }
 
 .password {
-  width: 200px;
-  height: 40px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #273549;
   border-radius: 6px;
   margin-left: 52px;
+  text-align: center;
+  color: #10b981;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
+
+.password-box {
+  display: flex;
+  justify-content: start;
+}
+
+.copy {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 800;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  border: none;
+}
+
+.copy:active {
+  background: green;
+  color: #1f2937;
+}
+
+
